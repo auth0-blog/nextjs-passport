@@ -1,0 +1,33 @@
+{
+  "name": "nextjs-passport",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/auth0-blog/nextjs-passport.git"
+  },
+  "keywords": [],
+  "author": "Bruno Krebs <krebs.bruno@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/auth0-blog/nextjs-passport/issues"
+  },
+  "homepage": "https://github.com/auth0-blog/nextjs-passport#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.3.1",
+    "dotenv": "^8.0.0",
+    "dotenv-webpack": "^1.7.0",
+    "express": "^4.16.4",
+    "isomorphic-fetch": "^2.2.1",
+    "next": "^8.1.0",
+    "react": "^16.8.6",
+    "react-bootstrap": "^1.0.0-beta.8",
+    "react-dom": "^16.8.6",
+    "styled-components": "^4.2.0"
+  }
+}
