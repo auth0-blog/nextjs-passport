@@ -25,11 +25,15 @@
     "dotenv": "^8.0.0",
     "dotenv-webpack": "^1.7.0",
     "express": "^4.16.4",
+    "express-session": "^1.16.1",
     "isomorphic-fetch": "^2.2.1",
     "next": "^8.1.0",
+    "passport": "^0.4.0",
+    "passport-auth0": "^1.1.0",
     "react": "^16.8.6",
     "react-bootstrap": "^1.0.0-beta.8",
     "react-dom": "^16.8.6",
-    "styled-components": "^4.2.0"
+    "styled-components": "^4.2.0",
+    "uid-safe": "^2.1.5"
   }
 }
