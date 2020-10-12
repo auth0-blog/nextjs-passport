@@ -11,8 +11,7 @@ function Index(props) {
 }
 
 Index.getInitialProps = async ({ req }) => {
-  const baseURL = req ? `${req.protocol}://${req.get("Host")}` : "";
-  const res = await fetch(`${baseURL}/api/thoughts`);
+  const res = await fetch(`${process.env.BASE_URL}/api/thoughts");
   return {
     thoughts: await res.json()
   };
