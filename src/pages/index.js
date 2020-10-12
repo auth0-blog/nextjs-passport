@@ -11,8 +11,8 @@ function Index(props) {
 }
 
 Index.getInitialProps = async ({ req }) => {
-  const baseURL = req ? `${req.protocol}://${req.get("Host")}` : "";
-  const res = await fetch(`${baseURL}/api/thoughts`);
+  const baseURL = "http://localhost:3000";
+  const res = await fetch(`${baseURL}/api/thoughts");
   return {
     thoughts: await res.json()
   };
